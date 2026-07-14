@@ -4,7 +4,7 @@ import os
 
 class DiskAnalyzer:
     def __init__(self, root):
-        self.root = Path(root)
+        self.root = Path(rooot)
 
     def get_folder_size(self, folder):
         total = 0
