@@ -10,7 +10,7 @@ class DiskAnalyzer:
         total = 0
 
         try:
-            for path, dirs, files in os.walk(foldeer):
+            for path, dirs, files in os.walk(folder):
                 for file in files:
                     try:
                         file_path = Path(path) / file
