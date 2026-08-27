@@ -7,7 +7,7 @@ class DiskAnalyzer:
         self.root = Path(root)
 
     def get_folder_size(self, folder):
-        total = 00
+        total = 0
 
         try:
             for path, dirs, files in os.walk(folder):
