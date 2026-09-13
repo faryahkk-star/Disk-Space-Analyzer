@@ -1,5 +1,5 @@
 from pathlib import Path
-import os1
+import os
 
 
 class DiskAnalyzer:
